@@ -14,13 +14,17 @@ Before setting up the project, ensure you have the following installed:
 
 ## Installation
 
-1.  Unzip the file
+```
+git clone https://github.com/HarshJain-26/Traini8.git
+```
 
-    - Backend_Traini8_HarshJain
+```
+cd Traini8
+```
 
-2.  Open the project in your favorite IDE
+OR
 
-    - IntellJ, Eclipse, VsCode
+Download ZIP
 
 ## Database Setup
 
@@ -39,11 +43,12 @@ Before setting up the project, ensure you have the following installed:
 
 ## Run the Application
 
-      - mvn clean install
-
-   <br>
-      
-      - mvn spring-boot:run
+```
+mvn clean install
+```   
+```
+mvn spring-boot:run
+```
 
 Once started, the application will be running at http://localhost:8080/
 
@@ -141,4 +146,4 @@ You can interact with the API by sending HTTP requests using tools like Postman 
 - Ensure you replace your-username and your-password in application.properties with your actual MySQL credentials.
 - The schema will be automatically updated in the database when the application starts (spring.jpa.hibernate.ddl-auto=update).
 
-### Author - Dev. Harsh Jain
+### Author - Harsh Jain
